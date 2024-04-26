@@ -189,7 +189,7 @@ def main():
                                         console.log('Respuesta del servidor:', data);
 
                                         // Obtener la URL del archivo de audio
-                                        const audioUrl = data.audio_url;
+                                        const audioUrl = data.audio_url_mp3;
 
                                         // Reproducir el archivo de audio
                                         const audioElement = new Audio(audioUrl);
